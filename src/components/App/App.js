@@ -31,7 +31,7 @@
 import { Routes, Route } from 'react-router-dom';
 import { lazy } from 'react';
 import { SharedLayout } from 'components/SharedLayout/SharedLayout';
-// import { AppBar } from 'components/AppBar/AppBar';
+
 
 
 const Home = lazy(() => import('pages/Home'));
