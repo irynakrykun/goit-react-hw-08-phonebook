@@ -5,8 +5,10 @@ import { Header } from './AppBar.styled';
 // import { useAuth } from 'hooks/useAuth';
 
 
+
 export const AppBar = () => {
   // const { isLoggedIn } = useAuth();
+   
 
   return (
     <Header>
