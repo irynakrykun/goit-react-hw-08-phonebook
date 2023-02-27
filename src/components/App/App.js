@@ -36,7 +36,8 @@ import { SharedLayout } from 'components/SharedLayout/SharedLayout';
 
 const Home = lazy(() => import('pages/Home'));
 const Register = lazy(() => import("pages/Register"));
-const Login = lazy(()=> import ('pages/Login'))
+const Login = lazy(() => import('pages/Login'));
+const Contacts = lazy(()=>import('pages/Contacts'))
 
 const App = () => {
   return (
@@ -47,6 +48,7 @@ const App = () => {
         <Route index element ={<Home/> } />
         <Route path='/register' element ={<Register />} />
           <Route path='/login' element={<Login />} />
+          <Route path='/contacts' element={<Contacts/> } />
           </Route>
       </Routes>
     </>
