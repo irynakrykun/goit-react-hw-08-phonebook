@@ -12,13 +12,15 @@ const ContactList = () => {
   const visibleContacts = filterContacts(items, filter);
 
   return (
+    <>
     <List>
       {visibleContacts.map((item, id) => (
         <ListItem key={id}>
           <Contact contact={item} />
         </ListItem>
       ))}
-    </List>
+      </List>
+      </>
   );
 };
 

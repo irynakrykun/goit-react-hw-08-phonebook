@@ -2,11 +2,18 @@ import styled from 'styled-components';
 export const LabelTitle= styled.label`
   color: black;
   font-size: 25px;
+  text-align:center
 `;
+
+
 export const Input = styled.input`
-  border: 1px solid black;
-  border-radius: 4px;
-  padding: 1px;
-  margin-left: 15px;
-  margin-bottom: 15px;
+  width: 220px;
+  padding: 5px;
+  background: transparent;
+  border-radius: 3px;
+  border: 2px solid green;
+
+  box-shadow: 0px 1px 1px blue, 0px 1px 1px blue,
+    0px 1px 1px blue;
+  outline: none;
 `;

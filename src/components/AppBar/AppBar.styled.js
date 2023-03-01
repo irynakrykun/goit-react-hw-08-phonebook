@@ -8,7 +8,10 @@ export const Header = styled.header`
 
   padding: 8px 0;
   margin-bottom: 16px;
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid blue;
+  margin-left: 20px;
+
+  margin-right: 20px;
   > nav {
     display: flex;
   }
