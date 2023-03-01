@@ -9,7 +9,7 @@ const Contact = ({ contact }) => {
   return (
     <>
       <Description>{contact.name}</Description>
-      <Description>{contact.phone}</Description>
+      <Description>{contact.number}</Description>
 
       <Button type="button" onClick={handleDelete}>
         Delete
@@ -21,7 +21,7 @@ Contact.propTypes = {
   contact: PropTypes.shape({
     id: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,
-    phone: PropTypes.string.isRequired,
+    number: PropTypes.string.isRequired,
   }),
 };
 
