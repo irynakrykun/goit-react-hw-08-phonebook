@@ -12,7 +12,6 @@ const Contact = ({ contact }) => {
     <>
       <Description><GoPerson/>  {contact.name}</Description>
       <Description><HiPhone/>  {contact.number}</Description>
-
       <Button type="button" onClick={handleDelete}>
         Delete
       </Button>
