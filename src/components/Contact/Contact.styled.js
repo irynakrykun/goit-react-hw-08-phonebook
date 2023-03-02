@@ -8,7 +8,7 @@ export const Button = styled.button`
   margin-top: 20px;
   color: snow;
   text-shadow: darkslateblue 1px 1px 1px;
-  width: 80px;
+  width: 90px;
   line-height: 1.5rem;
   background: blue;
   border: none;
