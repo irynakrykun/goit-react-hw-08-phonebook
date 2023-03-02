@@ -41,3 +41,14 @@ export const ListItem = styled.li`
 //   width: 650px;
 //   justify-content: space-between;
 // `;
+
+export const Contain = styled.div`
+  width: 720px;
+  padding: 35px 15px;
+  margin-top: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+`;

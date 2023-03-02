@@ -5,15 +5,20 @@ export const Description = styled.p`
   margin-right: auto;
 `;
 export const Button = styled.button`
-  background-color: blue; 
-  border: 1px solid #0926a6;
-  border-radius: 10px;
-  color: black;
-  padding: 5px 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 14px;
+  margin-top: 20px;
+  color: snow;
+  text-shadow: darkslateblue 1px 1px 1px;
+  width: 80px;
+  line-height: 1.5rem;
+  background: blue;
+  border: none;
+  border-radius: 7px;
+  box-shadow: 0px 1px 1px blue, 0px 1px 1px green, 0px 1px 1px blue;
   cursor: pointer;
-  margin-left: auto;
-  margin-right: 150px;`
+  transition: all 150ms ease 0s;
+  &:hover,
+  &:focus {
+    background: green;
+    box-shadow: 2px 5px 5px darkorchid;
+  }
+`;
