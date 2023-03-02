@@ -48,12 +48,12 @@ const FormContacts = () => {
       <FormLabel autoComplete="off">
         <Label htmlFor="name">
           Name
-          <Input type="text" name="name" />
+          <Input type="text" name="name" placeholder="Enter Name"/>
           <FormErr name="name" />
         </Label>
         <Label htmlFor="number">
           Number
-          <Input type="tel" name="number" />
+          <Input type="tel" name="number" placeholder="Enter Number" />
           <FormErr name="number" />
         </Label>
         <Button type="submit">Add contact</Button>
